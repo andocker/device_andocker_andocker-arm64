@@ -1,3 +1,5 @@
+include device/andocker/common/override.mk
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_arm64.mk)
 
 include device/andocker/common/andocker.mk
